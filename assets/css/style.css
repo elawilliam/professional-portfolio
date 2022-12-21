@@ -46,11 +46,6 @@ nav a {
 
 }
 
-main header {
-    font-size: 200%;
-    text-align: center;
-}
-
 aside {
     margin-left: 0%;
     padding: 1%;
@@ -61,8 +56,7 @@ aside {
     background-color: white;
     color: black;
     font-size: 100%;
-    
-    
+  
 }
 
 aside img {
@@ -70,25 +64,40 @@ aside img {
     display: flex;
 }
 
+main header {
+    font-size: 200%;
+}
 
 main {
     display: flex;
-    flex: 1 1 0;
+    flex: 1 0 0;
     max-width: 80%;
     padding: 1%;
+    text-align: left;
 }
 
-.code-refactor {
-    flex: 1 1 0;
-    padding-right: 5%;
+main img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
 }
+
 .projects {
-    flex: .5 .5 0;
+    flex: 1 1 0;
+    width: 100%;
     padding-right: 5%;
 }
+
+.tbd {
+    flex: 1 1 0;
+    width: 50%;
+    padding-right: 5%;
+
+}
+
 
 h3 {
-    font-size: 100%;
+    font-size: 120%;
 }
 
 footer {
